@@ -1,1 +1,1 @@
-site :https://www.fullstack.cafe/blog/javascript-code-interview-questions
+site :https://www.fullstack.cafe/blog/javascript-code-interview-questions 
