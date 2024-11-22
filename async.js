@@ -32,6 +32,10 @@ const filterNums = (nums,callBack)=>{// callBack return bool
     return (newData);
 }
 
-console.log(filterNums(nums,(x)=> x <= 10));//callback function
+// console.log(filterNums(nums,(x)=> x <= 10));//callback function
+// /Asynchronous JavaScript
+//Functions running in parallel with other functions are called asynchronous
+//A good example is JavaScript setTimeout()
+
 
 
