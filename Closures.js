@@ -37,3 +37,20 @@ data.increment();
 data.increment();
 
 console.log(data.counter)
+
+
+//Example 1: Basic Closure
+function outerFunction() {
+    let count = 0; // A variable in the outer scope
+
+    function innerFunction() {
+        count++; // Access the outer variable
+        console.log(count);
+    }
+
+    return innerFunction; // Return the inner function
+}
+
+const myClosure = outerFunction(); // outerFunction runs and returns innerFunction
+myClosure(); // Output: 1 (innerFunction remembers `count`)
+myClosure(); // Output: 2 (it still remembers `count`)
