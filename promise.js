@@ -1,3 +1,5 @@
+// promises are asynchronous operations..that can return resolve of success or reject on err
+
 // A JavaScript Promise represents a value that may be available now, or in the future, or never. It simplifies asynchronous operations, making it easier to handle success and failure cases.
 
 // Here's a simple example to illustrate how a Promise works:
