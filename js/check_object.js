@@ -4,5 +4,5 @@ const obj = {}
 
 if (Array.isArray(arr))
     console.log("done")
-if (Number.isInteger(33))
-    console.log("num")
+if (typeof arr == Object)
+    console.log("done")
