@@ -5,3 +5,5 @@ function multply(x)
     })
 }
 console.log(multply(3)(10));
+
+
