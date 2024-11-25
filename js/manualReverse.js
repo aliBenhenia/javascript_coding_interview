@@ -6,4 +6,4 @@ const reversString = (s)=>{
     return (str);
 }
 
-console.log(reversString(" "))
+console.log(reversString("rfwrd"))
