@@ -15,7 +15,11 @@ console.log(checkNonbulean(new Map()));
 console.log(checkNonbulean(new Set()));
 console.log(checkNonbulean([]));
 console.log(checkNonbulean({}));
+console.log(checkNonbulean(()=>{}));
+console.log("***************************")
 console.log(checkNonbulean(0));
+console.log(checkNonbulean(""));
+console.log(checkNonbulean(NaN));
 console.log(checkNonbulean());// undifend
 console.log(checkNonbulean(undefined));
 console.log(checkNonbulean(null));
