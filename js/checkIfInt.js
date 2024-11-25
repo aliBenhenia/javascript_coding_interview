@@ -3,10 +3,13 @@ const isNum = (n)=>{
         return true;
     return false;
 }
+
 const checkInt = (n)=>{
+    console.log(n % 1);
     if (n % 1 == 0)
         return true;
     return false;
 }
-console.log(checkInt(34));
+
+console.log(checkInt(34.344));
 
