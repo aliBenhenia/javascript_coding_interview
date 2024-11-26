@@ -102,5 +102,38 @@ add(1,34);
 // We can use generics with interfaces to create reusable components.
 // Interfaces also help in improving the performance of JavaScript engines.
 
+function prsf(n)
+{
+    n * 4;// calcule soo number>? str? 
+    n.name 
+    n.age // but user enter nu or enter undifind prop
+}
+// const rr ={
+//     r:1,
+// }
+// console.log(rr.rgeg) // main problem in js ,,but ts trow err here....
+
+
+const innn:{name:string,age?:number} ={
+    name :"julia",
+    
+}
+
+let edd;
+console.log(edd)
+
+const dfes:number[] = [1,2,3,34,4];
+dfes.forEach((n:number)=>{
+    console.log(n)
+})
+
+
+// 15. Differentiate between the .ts and .tsx file extensions given to the TyppeScript file.
+// The .ts file extension is used to create a file that contains the pure TypeScript code inside it. These files are mainly created to implement the classes, functions, reducers and other pure typescript code. These files does not contain any JSX code. On the other hand, the .tsx file extensions are used to create the files that contains the JSX code inside it. These files are mainly used to build a react component that returns the JSX code at the end.
+
+type numeroTop = number | string | null | undefined | number[];
+
+const mm:numeroTop = [74575,3,3,34,];
+console.log(mm);
 
 
