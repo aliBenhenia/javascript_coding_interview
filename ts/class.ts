@@ -42,12 +42,13 @@ class Vehicle{
 }
 class Bike extends Vehicle
 {
+    private static global_ : number = 112;// access it without instabce of Blueprint...
     constructor(price:number)
     {
         super(price);// pass to parent..
     }
-    print():void{
-        console.log(this.price);
+   static print():void{
+        console.log("==>",this.global_);
     }
     getPrice():number{
         return(this.getPriceParent());
@@ -56,4 +57,5 @@ class Bike extends Vehicle
   
 const b1 = new Bike(1000);
 console.log(b1.getPrice());
+console.log(Bike.print());
 // console.log(b1.getPriceParent()); cnat access becAUSE its protected...

@@ -51,14 +51,16 @@ var Bike = /** @class */ (function (_super) {
     function Bike(price) {
         return _super.call(this, price) || this; // pass to parent..
     }
-    Bike.prototype.print = function () {
-        console.log(this.price);
+    Bike.print = function () {
+        console.log("==>", this.global_);
     };
     Bike.prototype.getPrice = function () {
         return (this.getPriceParent());
     };
+    Bike.global_ = 112; // access it without instabce of Blueprint...
     return Bike;
 }(Vehicle));
 var b1 = new Bike(1000);
 console.log(b1.getPrice());
+console.log(Bike.print());
 // console.log(b1.getPriceParent()); cnat access becAUSE its protected...
