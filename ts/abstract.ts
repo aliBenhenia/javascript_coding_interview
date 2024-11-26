@@ -31,3 +31,11 @@ const printAbstract = (shape_:Shape)=>{// hard to debug
 printAbstract(new Square());
 printAbstract(new Circle());
 // printAbstract(new Shape());// cant create a instnce from abstract class
+
+// Properties and Methods
+// Access Modifiers (public, private, protected)
+// Constructors for initialization
+// Inheritance using extends
+// Getters and Setters for custom property access
+// Static Members that belong to the class, not instances
+// Abstract Classes to define base classes for other classes to extend
