@@ -37,9 +37,18 @@ class AttakerKeeper extends PlayerRole
         return (new String("attaker"));
     }
 }
+class AttakerKeeper2 extends PlayerRole
+{
+    // getRole()
+    // {
+    //     return (new String("attaker"));
+    // }
+}
 const p1 = new FootBaller("messi", 38, new GoalKeeper());
 const p2 = new FootBaller("messi", 38, new DefinderKeeper());
 const p3 = new FootBaller("messi", 38, new AttakerKeeper());
+// const p4 = new FootBaller("messi", 38, new AttakerKeeper2());
 console.log("==> ",p1.getRole());
 console.log("==> ",p2.getRole());
 console.log("==> ",p3.getRole());
+// console.log("==> ",p4.getRole()); catch throwed exption 
