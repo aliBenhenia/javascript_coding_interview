@@ -1,4 +1,6 @@
 const reverseString = (str)=>{
     return str.split("").reverse().join("");
 }
-console.log(reverseString("hi john cava bien!"));
+console.log(reverseString("hello"));
+
+export default reverseString;
