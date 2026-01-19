@@ -38,13 +38,22 @@ const flaten = nested.reduce((acc,item, idx)=>{
 console.log(flaten)
 
 
-array.reduce(
-  function(accumulator, currentValue, index, array) {
-    // accumulator: Accumulated value so far
-    // currentValue: Current element being processed
-    // index: Current index (optional)
-    // array: Original array (optional)
-    return updatedAccumulator;
-  }, 
-  initialValue // Starting value (optional but recommended)
-);
+// array.reduce(
+//   function(accumulator, currentValue, index, array) {
+//     // accumulator: Accumulated value so far
+//     // currentValue: Current element being processed
+//     // index: Current index (optional)
+//     // array: Original array (optional)
+//     return updatedAccumulator;
+//   }, 
+//   initialValue // Starting value (optional but recommended)
+// );
+// filter all nums up to 9
+const numbers2 = [1, 2, 3, 10, 5, 15, 7, 20, 9];
+const filtered = numbers2.reduce((acc, item) => {
+  if (item <= 9) {
+    acc.push(item);
+  }
+  return acc; // Must return accumulator every time
+}, []);
+console.log(filtered); // [1, 2, 3, 5, 7, 9]

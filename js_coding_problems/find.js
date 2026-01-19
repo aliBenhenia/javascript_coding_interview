@@ -1,0 +1,3 @@
+const nums = [11,2,2,3,3,343434,4,545,5]
+const found = nums.find((num)=> num > 10);// FIND FIRST occurance...
+console.log(found);
