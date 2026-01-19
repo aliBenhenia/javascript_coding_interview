@@ -36,3 +36,15 @@ const flaten = nested.reduce((acc,item, idx)=>{
 },[])
 
 console.log(flaten)
+
+
+array.reduce(
+  function(accumulator, currentValue, index, array) {
+    // accumulator: Accumulated value so far
+    // currentValue: Current element being processed
+    // index: Current index (optional)
+    // array: Original array (optional)
+    return updatedAccumulator;
+  }, 
+  initialValue // Starting value (optional but recommended)
+);
