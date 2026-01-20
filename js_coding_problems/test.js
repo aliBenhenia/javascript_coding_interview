@@ -47,12 +47,16 @@
 // const unique = new Set([...nums]);
 // const uArr = [...unique].sort()// method chaning in js
 // console.log(uArr)
-const data = new Map();
-for (let i = 0; i<10;i++)
-{
-  data.set(i, `hello ${i}`);
-}
-for (let it of data)
-{
-  console.log(it[1])
-}
+// const data = new Map();
+// for (let i = 0; i<10;i++)
+// {
+//   data.set(i, `hello ${i}`);
+// }
+// for (let it of data)
+// {
+//   console.log(it[1])
+// }
+const d = [];
+d.push([1,1,2,2,]);
+d.push([1,1,2,2,]);
+console.log(d)
