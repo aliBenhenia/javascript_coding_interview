@@ -56,7 +56,7 @@
 // {
 //   console.log(it[1])
 // }
-const d = [];
-d.push([1,1,2,2,]);
-d.push([1,1,2,2,]);
-console.log(d)
+// const d = [];
+// d.push([1,1,2,2,]);
+// d.push([1,1,2,2,]);
+// console.log(d)
