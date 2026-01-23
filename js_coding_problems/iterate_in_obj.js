@@ -1,6 +1,6 @@
 const test ={
-    name : `ahmed`,
-    id : 111,
+    2 : `ahmed`,
+    true : 111,
      age: 30,
     city: 'New York'
 }
