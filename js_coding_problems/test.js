@@ -60,3 +60,61 @@
 // d.push([1,1,2,2,]);
 // d.push([1,1,2,2,]);
 // console.log(d)
+// const arr = [1,1,1,1,3,23,3,3,3,3,4,9,9,9, true, true];
+// const clean = [...new Set([...arr])];
+// // console.log(clean);
+// class Counter{
+//     #m = 1
+//     constructor(x = 55)
+//     {
+//         this.x = x;
+//         var m = 11; // private
+//     }
+//     increment(){
+//         this.x++;
+//         this.m++;
+//         console.log(this.x);
+//     }
+//     getM(){
+//         return m}
+// }
+// const c = new Counter();
+// c.increment()
+// c.increment()
+// console.log(c.getM())
+
+// c.increment()
+
+class Animal {
+    constructor(name)
+    {
+        this.name = name;
+    }
+    speak()
+    {
+        console.log("animal")
+    }
+}
+class Gen{// use without instance
+    static name = "aura"
+}
+class Dog extends Animal{
+    #balance = 564664;
+    constructor (name) {
+        super(Gen.name);// for parent
+    }
+    speak()// overrided polymorphsim
+    {
+        console.log("dog")
+        this.#print()
+    }
+    #print()
+    {
+                console.log(this.#balance)
+
+    }
+}
+const d = new Dog("rooop");
+d.speak()
+// d.print()
+console.log(d.name)

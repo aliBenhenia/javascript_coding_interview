@@ -11,4 +11,6 @@ const custom_map = (arr,fn)=>{
 }
 const nums = [1,2,3,4];
 const maped = custom_map(nums, ((item)=> item + 1));
-console.log(maped);
+// console.log(maped);
+
+// remov
